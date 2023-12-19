@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  background-image: url(./images/jungle1.avif);
+  background-size: cover;  
+}
+
+@font-face {
+  font-family: animalFont;
+  src: url(./fonts/Meows-VGWjy.ttf);
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "animalFont", cursive;
+  -webkit-text-stroke: 0.1px black;
+}
+
+#para1{
+  font-size: 1rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.chicken {
+  background-image: url("./images/chicken.jpg");
+  background-size: cover;
+}
+
+.dog {
+  background-image: url("./images/dog.jpg");
+  background-size: cover;
+}
+
+.duck {
+  background-image: url("./images/duck.jpg");
+  background-size: cover;
+}
+
+.elephant {  
+  background-image: url("./images/elephant.jpg");
+  background-size: cover;
+}
+
+.lion {
+  background-image: url("./images/lion.jpg");
+  background-size: cover;
+}
+
+.monkey {
+  background-image: url("./images/monkey.jpg");
+  background-size: cover;
+}
+
+.parot {
+  background-image: url("./images/parrot.jpg");
+  background-size: cover;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.animal {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
